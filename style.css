@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#outer-box {
+  margin:auto;
+  margin-top: 5%;
+  padding: 1%;
+  width: 30vw;
+  height: auto;
+  border: 3px solid cadetblue;
+}
+
+#top {
+  text-align: right;
+  margin-bottom: 5%;
+  border: 1px solid black;
+}
+
+div#top div {
+  margin: 5%;
+  border: 0px;
+}
+
+#history {
+  font-size: 110%;
+  color: gray;
+}
+
+#ans {
+  font-size: 2em;
+}
+
+/* buttons */
+#all-buttons {
+  margin: 0;
+  border: 0;
+  /* padding: 1em; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  padding: 8px;
+  margin: 10px 3px;
+  font-size: large;
+}
+
+.big {
+  flex-basis: 40%;
+}
+
+.small {
+  flex-basis: 20%;
+}
